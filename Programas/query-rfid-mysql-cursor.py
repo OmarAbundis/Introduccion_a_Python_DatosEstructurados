@@ -2,16 +2,14 @@
 import mysql.connector
 
 #Conexión
-cnx = mysql.connector.connect(user='OmarAb', password='kore',
-                              host='localhost',
-                              database='codigoIoT')
+cnx = mysql.connector.connect(user='OmarAb', password='kore', host='localhost', database='codigoIoT')
 
 # Cursor
 cursor = cnx.cursor()
 
 
 # Query
-query = ("SELECT id,nombre,temperatura FROM clima WHERE nombre = 'OmarAb';")
+query = ("SELECT id,nombre,temperatura FROM clima WHERE nombre = 'Omar_ab';")
 
 # Ejecuta cursor
 
