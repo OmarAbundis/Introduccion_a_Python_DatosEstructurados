@@ -1,0 +1,21 @@
+[
+    {
+        "id": "20eb8174252eff09",
+        "type": "function",
+        "z": "5e55772da6c07c58",
+        "name": "function 1",
+        "func": "msg.payload = ' \"' + global.get(\"text\") + '\"';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 200,
+        "wires": [
+            [
+                "867f52bf679b4bba"
+            ]
+        ]
+    }
+]
